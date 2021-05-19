@@ -5,9 +5,9 @@ import java.time.LocalDate;
 public class Flow {
 	private LocalDate day;
 	private double flow;
-	private River river;
+	private int river;
 
-	public Flow(LocalDate day, double flow, River river) {
+	public Flow(LocalDate day, double flow, int river) {
 		this.day = day;
 		this.flow = flow;
 		this.river = river;
